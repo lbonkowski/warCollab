@@ -111,5 +111,32 @@ public class WarGameMain {
         deck.add(new Card ("Spades", 9));
         deck.add(new Card ("Spades", 12));
         deck.add(new Card ("Spades", 13));
+        
+        deck.add(new Card ("Hearts", 1));
+        deck.add(new Card ("Hearts", 2));
+        deck.add(new Card ("Hearts", 3));
+        deck.add(new Card ("Hearts", 4));
+        deck.add(new Card ("Hearts", 5));
+        deck.add(new Card ("Hearts", 6));
+        deck.add(new Card ("Hearts", 7));
+        deck.add(new Card ("Hearts", 8));
+        deck.add(new Card ("Hearts", 9));
+        deck.add(new Card ("Hearts", 10));
+        deck.add(new Card ("Hearts", 11));
+        deck.add(new Card ("Hearts", 12));
+        deck.add(new Card ("Hearts", 13));
+
+        deck.add(new Card ("Diamonds", 2));
+        deck.add(new Card ("Diamonds", 1));
+        deck.add(new Card ("Diamonds", 3));
+        deck.add(new Card ("Diamonds", 4));
+        deck.add(new Card ("Diamonds", 6));
+        deck.add(new Card ("Diamonds", 5));
+        deck.add(new Card ("Diamonds", 8));
+        deck.add(new Card ("Diamonds", 7));
+        deck.add(new Card ("Diamonds", 10));
+        deck.add(new Card ("Diamonds", 9));
+        deck.add(new Card ("Diamonds", 12));
+        deck.add(new Card ("Diamonds", 13));
     }
 }//end class
