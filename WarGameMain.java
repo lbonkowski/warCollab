@@ -141,7 +141,7 @@ public class WarGameMain {
         deck.add(new Card ("Diamonds", 9));
         deck.add(new Card ("Diamonds", 12));
         deck.add(new Card ("Diamonds", 13));
-        Collections.shuffle(deck);
+        
         
         for(int i = 0; i < deck.length; i++) {
         	player1.add(i);
