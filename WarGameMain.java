@@ -1,8 +1,11 @@
 package war;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
+
+import javax.smartcardio.Card;
 
 public class WarGameMain {
     public static Queue<Card> player1 = new LinkedList<Card>();
@@ -138,5 +141,12 @@ public class WarGameMain {
         deck.add(new Card ("Diamonds", 9));
         deck.add(new Card ("Diamonds", 12));
         deck.add(new Card ("Diamonds", 13));
+        Collections.shuffle(deck);
+        
+        for(int i = 0; i < deck.length; i++) {
+        	player1.add(i);
+        	i++;
+        	player2.add(i);
+        }
     }
 }//end class
